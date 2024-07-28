@@ -1,0 +1,11 @@
+{
+  "scripts": {
+    "start": "vite"
+  },
+  "devDependencies": {
+    "postcss-flexbugs-fixes": "^5.0.2",
+    "postcss-preset-env": "^9.3.0",
+    "tailwindcss": "^3.4.0",
+    "vite": "^5.0.10"
+  }
+}

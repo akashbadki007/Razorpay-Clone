@@ -1,0 +1,116 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ------------------------------------ Container-1 Feature Card  ---------------------------------------------------- */
+.featureCard:hover .featureCardIcon {
+  background-image: linear-gradient(30.55deg, #6ac7ff 11.05%, #148aff 90.09%);
+  box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+}
+
+.featureCard:hover .featureCardSVG {
+  filter: drop-shadow(0px 2px 22px rgba(202, 202, 202, 0.25));
+  stroke-opacity: 0 !important;
+}
+
+.featureCard:hover .featureCardBox {
+  background-image: url('/asset/features-wave.svg');
+  background-repeat: no-repeat;
+  background-position: bottom 1rem right;
+}
+
+/* -------------------------------------------------- Container-2 Feature Card ------------------------------------------- */
+
+.featureCard2:hover .featureCardBox {
+  background-image: url('/asset/features2-wave.svg');
+  background-repeat: no-repeat;
+  background-position: bottom 1rem right;
+}
+
+.featureCard2:hover .featureCardSVG {
+  filter: drop-shadow(0px 2px 24px rgba(0, 0, 0, 0.4));
+  stroke-opacity: 0 !important;
+}
+
+.featureCard2:hover .featureCardIcon {
+  background-image: linear-gradient(188.57deg, #2095ff -16.05%, #6416ff 116.32%);
+  box-shadow: 0px 2px 24px rgb(0 0 0 / 40%);
+  transition: all 200ms ease-in-out;
+}
+
+
+/* -----  Start Features Container-3  --------------------------------------------------------------------------------------------------------------- */
+
+            /* Instant Settlements */
+.bgcard1{
+    background-image: url('/asset/instant-settlement-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+    
+  }
+  .bgcard1:hover {
+    background-image: url('/asset/instant-settlement-bghover.svg');
+  }
+
+              /* UPI AutoPay */
+  .bgcard2{
+    background-image: url('/asset/upi-autopay-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+  }
+  .bgcard2:hover {
+    background-image: url('/asset/upi-autopay-hoverbg.svg');
+  }
+
+              /* Payment Button */
+  .bgcard3{
+    background-image: url('/asset/payment-button-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+  }
+
+  .bgcard3:hover {
+    background-image: url('/asset/payment-button-hoverbg.svg');
+  }
+
+              /* QR Codes */
+  .bgcard4{
+    background-image: url('/asset/instantsettlement-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+  }
+  .bgcard4:hover {
+    background-image: url('/asset/instantsettlement-hoverbg.svg');
+  }
+
+              /* Magic Checkout */
+  .bgcard5{
+    background-image: url('/asset/magic-checkout-bg.svg');
+    box-shadow: 0px 2px 22px rgb(202 202 202 / 25%);
+  }
+  .bgcard5:hover {
+    background-image: url('/asset/magic-checkout-hoverbg.svg');
+  }
+
+  .coreFeaturesBg {
+    background-image: url("asset/core-features-sectionBg.svg");
+    background-size: 2000px 100%;
+    padding-top: 20rem;
+    padding-bottom: 20rem;
+}
+
+  .companiesList {
+    animation: 5s infinite linear companiesAnimation;
+  }
+
+  .ctaSection{
+    min-height: 700px;
+  }
+  
+  @keyframes companiesAnimation {
+    0% {
+      top: 0;
+    }
+  
+    100% {
+      top: -50%;
+    }
+  }
+
+  
